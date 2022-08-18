@@ -1,2 +1,2 @@
 # flashcard-app
-A flashcard app made with Vue 3
+A flashcard app made with Vue 3 (edited)
