@@ -1,7 +1,7 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
@@ -15,9 +15,17 @@ import HelloWorld from './components/HelloWorld.vue'
   </div>
   <HelloWorld msg="Vite + Vue" />
   <button class="button is-info">Click Me!</button>
+
+  <span class="icon">
+    <i class="fas fa-home"></i>
+  </span>
 </template>
 
 <style scoped>
+.i {
+  background-color: blue;
+  font-size: 20px;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
